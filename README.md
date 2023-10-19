@@ -1,2 +1,2 @@
-# on-board-computer-of-the-car
-A program that imitates the functioning of the car and the car’s on-board computer.
+# On-board computer of the car
+A program that imitates the functioning of the car and the car’s on-board computer. At first, user chooses between a car and a truck. Depending on the selected vehicle, other functions will be available in the program. The user can perform various actions related to the vehicle, such as "start the engine", "drive", "stop the engine", "refuel". The "drive" and "refuel" actions affect an additional element of the program, which is an imitation of the on-board computer displaying the vehicle's mileage, fuel consumption, remaining range, etc.
