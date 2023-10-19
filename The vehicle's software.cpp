@@ -47,12 +47,10 @@ class CAR
 			std::cout<<"Srednie spalanie (l/100km): ";
 			std::cin>>fuel_usage;
 			fuel_usage /= 100;
-			std::cout << "\n(Konstruktor CAR)\n\n";
 		};
 	
 		~CAR()
 		{
-			std::cout << "\n(Destruktor CAR)\n";
 		};
 	
 		
@@ -178,11 +176,9 @@ class PERSONAL: public CAR
 		{
 			std::cout <<"Liczba miejsc: ";
 			std::cin>>seats;
-			std::cout << "\n(Konstruktor PERSONAL)\n\n";
 		};
 		~PERSONAL()
 		{
-			std::cout << "\n(Destruktor PERSONAL)\n";
 		};
 		
 		void present()
@@ -222,11 +218,9 @@ class TRUCK: public CAR
 			std::cin >>capacity;
 			std::cout <<"Typ ladunku: ";
 			std::cin >> cargo;
-			std::cout << "\n(Konstruktor TRUCK)\n\n";
 		};
 		~TRUCK()
 		{
-			std::cout << "\n(Destruktor TRUCK)\n";
 		};
 		
 		void load()
